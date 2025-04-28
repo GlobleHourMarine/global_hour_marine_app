@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">419540803823</string>
+    <string name="google_api_key" translatable="false">AIzaSyB9wtxyNRdjt2YYZla2ENBM0V3strphTzo</string>
+    <string name="google_app_id" translatable="false">1:419540803823:android:424bebe69acd5fbeb03b1a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB9wtxyNRdjt2YYZla2ENBM0V3strphTzo</string>
+    <string name="google_storage_bucket" translatable="false">klizards-6909a.appspot.com</string>
+    <string name="project_id" translatable="false">klizards-6909a</string>
+</resources>

@@ -1,0 +1,4 @@
+#Fri Apr 25 11:52:48 IST 2025
+base.0=D\:\\Flutter Projects\\flutter\\KLizard_app-main\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
