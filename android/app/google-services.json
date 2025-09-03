@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "419540803823",
-    "project_id": "klizards-6909a",
-    "storage_bucket": "klizards-6909a.appspot.com"
+    "project_number": "431848399390",
+    "project_id": "globle-hour-marine",
+    "storage_bucket": "globle-hour-marine.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:419540803823:android:424bebe69acd5fbeb03b1a",
+        "mobilesdk_app_id": "1:431848399390:android:e5dfca9e52487652c7040f",
         "android_client_info": {
-          "package_name": "com.app.klizards"
+          "package_name": "com.app.ghm"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyB9wtxyNRdjt2YYZla2ENBM0V3strphTzo"
+          "current_key": "AIzaSyAqwDsHkAlbXbZDxj4dAMcQoItmS479Mpk"
         }
       ],
       "services": {

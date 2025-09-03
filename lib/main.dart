@@ -1,10 +1,11 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:ghm/firebase_options.dart';
 import 'package:ghm/splash/splash_screen.dart';
 import 'package:ghm/utilities/app_constant.dart';
+import 'package:ghm/utilities/notification_service.dart';
 import 'package:loader_overlay/loader_overlay.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:ghm/firebase_options.dart';
 
 late SharedPreferences prefs;
 
@@ -13,6 +14,8 @@ void main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
+  await NotificationService().initialize();
+
   prefs = await SharedPreferences.getInstance();
   runApp(const MyApp());
 }

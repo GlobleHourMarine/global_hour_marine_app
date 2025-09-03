@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.ghm.app-mergeReleaseResources-38:/values-en-rIN/values-en-rIN.xml",
+            "outputFile": "com.app.ghm.app-mergeReleaseResources-39:/values-en-rIN/values-en-rIN.xml",
             "map": [
                 {
                     "source": "C:\\Users\\rajpu\\.gradle\\caches\\transforms-3\\577ac619a7899eacde60ab70e6a6fa82\\transformed\\browser-1.8.0\\res\\values-en-rIN\\values-en-rIN.xml",

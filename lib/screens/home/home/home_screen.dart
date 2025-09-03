@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'dart:io';
 import 'package:flutter/material.dart';
-import 'package:firebase_messaging/firebase_messaging.dart';
+// import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:ghm/models/banner_Model.dart';
 import 'package:ghm/screens/home/home/documents_screen.dart';
 import 'package:ghm/screens/home/home/investmentList_screen.dart';
@@ -36,9 +36,9 @@ class _HomeScreenState extends State<HomeScreen> {
     super.initState();
     serviceGetBannerList();
     serviceGetProfileData();
-    FirebaseMessaging.instance.getToken().then((token) {
-      serviceSubmitFirebaseToken(token ?? "");
-    });
+    // FirebaseMessaging.instance.getToken().then((token) {
+    //   serviceSubmitFirebaseToken(token ?? "");
+    // });
   }
 
   void showSnackbar(BuildContext context, String message) {

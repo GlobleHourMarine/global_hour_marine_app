@@ -160,9 +160,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 ),
                 textfieldCommonNew('Enter Email/Username', Icons.email_outlined,
                     emailController),
-                const SizedBox(
-                  height: 20,
-                ),
+                const SizedBox(height: 20),
                 Container(
                   height: 40,
                   padding: const EdgeInsets.symmetric(horizontal: 12),
@@ -288,7 +286,8 @@ class _LoginScreenState extends State<LoginScreen> {
                 padding: const EdgeInsets.symmetric(horizontal: 10),
                 child: Column(
                   children: [
-                    Row(
+                    Row(   
+                      
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         Expanded(

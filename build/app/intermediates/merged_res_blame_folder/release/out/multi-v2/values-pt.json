@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.ghm.app-mergeReleaseResources-38:/values-pt/values-pt.xml",
+            "outputFile": "com.app.ghm.app-mergeReleaseResources-39:/values-pt/values-pt.xml",
             "map": [
                 {
                     "source": "C:\\Users\\rajpu\\.gradle\\caches\\transforms-3\\98130f4b426c0fee49e1c989666d2c7b\\transformed\\core-1.13.1\\res\\values-pt\\values-pt.xml",

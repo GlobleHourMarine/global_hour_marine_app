@@ -118,6 +118,7 @@
     <color name="material_grey_900">#ff212121</color>
     <color name="notification_action_color_filter">#ffffffff</color>
     <color name="notification_icon_bg_color">#ff9e9e9e</color>
+    <color name="notification_material_background_media_default_color">#ff424242</color>
     <color name="primary_dark_material_dark">@android:color/black</color>
     <color name="primary_dark_material_light">@color/material_grey_600</color>
     <color name="primary_material_dark">@color/material_grey_900</color>
@@ -252,6 +253,10 @@
     <dimen name="notification_subtext_size">13sp</dimen>
     <dimen name="notification_top_pad">10dp</dimen>
     <dimen name="notification_top_pad_large_text">5dp</dimen>
+    <dimen name="subtitle_corner_radius">2dp</dimen>
+    <dimen name="subtitle_outline_width">2dp</dimen>
+    <dimen name="subtitle_shadow_offset">2dp</dimen>
+    <dimen name="subtitle_shadow_radius">2dp</dimen>
     <dimen name="tooltip_corner_radius">2dp</dimen>
     <dimen name="tooltip_horizontal_padding">16dp</dimen>
     <dimen name="tooltip_margin">8dp</dimen>
@@ -400,13 +405,13 @@
     <string name="fallback_menu_item_open_in_browser">Open in browser</string>
     <string name="fallback_menu_item_share_link">Share link</string>
     <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
-    <string name="gcm_defaultSenderId" translatable="false">419540803823</string>
-    <string name="google_api_key" translatable="false">AIzaSyB9wtxyNRdjt2YYZla2ENBM0V3strphTzo</string>
-    <string name="google_app_id" translatable="false">1:419540803823:android:424bebe69acd5fbeb03b1a</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB9wtxyNRdjt2YYZla2ENBM0V3strphTzo</string>
-    <string name="google_storage_bucket" translatable="false">klizards-6909a.appspot.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">431848399390</string>
+    <string name="google_api_key" translatable="false">AIzaSyAqwDsHkAlbXbZDxj4dAMcQoItmS479Mpk</string>
+    <string name="google_app_id" translatable="false">1:431848399390:android:e5dfca9e52487652c7040f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAqwDsHkAlbXbZDxj4dAMcQoItmS479Mpk</string>
+    <string name="google_storage_bucket" translatable="false">globle-hour-marine.firebasestorage.app</string>
     <string name="menu_search">Search</string>
-    <string name="project_id" translatable="false">klizards-6909a</string>
+    <string name="project_id" translatable="false">globle-hour-marine</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
@@ -1786,12 +1791,17 @@
         <item name="android:textSize">12sp</item>
         <item name="android:textColor">?android:attr/textColorSecondary</item>
     </style>
+    <style name="TextAppearance.Compat.Notification.Info.Media"/>
     <style name="TextAppearance.Compat.Notification.Line2" parent="TextAppearance.Compat.Notification.Info"/>
+    <style name="TextAppearance.Compat.Notification.Line2.Media" parent="TextAppearance.Compat.Notification.Info.Media"/>
+    <style name="TextAppearance.Compat.Notification.Media"/>
     <style name="TextAppearance.Compat.Notification.Time">
         <item name="android:textSize">12sp</item>
         <item name="android:textColor">?android:attr/textColorSecondary</item>
     </style>
+    <style name="TextAppearance.Compat.Notification.Time.Media"/>
     <style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.StatusBar.EventContent.Title"/>
+    <style name="TextAppearance.Compat.Notification.Title.Media"/>
     <style name="TextAppearance.Widget.AppCompat.ExpandedMenu.Item" parent="Base.TextAppearance.Widget.AppCompat.ExpandedMenu.Item">
     </style>
     <style name="TextAppearance.Widget.AppCompat.Toolbar.Subtitle" parent="Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle">

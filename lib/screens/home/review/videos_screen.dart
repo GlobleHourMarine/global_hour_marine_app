@@ -139,10 +139,8 @@ class CardWidget extends StatelessWidget {
               height: 100,
               fit: BoxFit.cover,
             ),
-            const SizedBox(
-              width: 20,
-            ),
-            Center(
+            const SizedBox(width: 20),
+            Expanded(
               child: Text(
                 title,
                 style:

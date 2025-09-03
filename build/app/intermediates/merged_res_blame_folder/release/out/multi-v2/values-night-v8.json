@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.ghm.app-mergeReleaseResources-38:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.app.ghm.app-mergeReleaseResources-39:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "D:\\Flutter Projects\\flutter\\KLizard_app-main\\android\\app\\src\\main\\res\\values-night\\styles.xml",

@@ -1,0 +1,1 @@
+ D:\\Flutter\ Projects\\flutter\\KLizard_app-main\\.dart_tool\\flutter_build\\f97b572faeb747f3c32fda88447b2642\\native_assets.yaml: 

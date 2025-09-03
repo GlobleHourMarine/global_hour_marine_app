@@ -4,7 +4,7 @@
     "type": "BUNDLE",
     "kind": "RegularFile"
   },
-  "applicationId": "com.app.klizards",
+  "applicationId": "com.app.ghm",
   "variantName": "release",
   "elements": [
     {

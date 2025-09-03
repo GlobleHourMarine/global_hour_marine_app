@@ -207,7 +207,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                               value: detail.value,
                             ),
                           )
-                        : detail.key == "email"
+                        : detail.key == "Email"
                             ? GestureDetector(
                                 onTap: () {},
                                 child: CardWidget(

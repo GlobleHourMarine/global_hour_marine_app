@@ -27,7 +27,7 @@ class AppColors {
 }
 
 class Api {
-  static const String baseURL = 'https://app.klizards.com';
+  static const String baseURL = 'https://app.globlehourmarine.com';
 
   static const String baseURLv = '$baseURL/api';
   static const String login = '$baseURLv/login';
