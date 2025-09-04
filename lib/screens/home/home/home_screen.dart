@@ -24,13 +24,14 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+
   List<BannerDetail> bannerList = [];
   Map<String, dynamic>? detail;
 
   final LoopPageController _pageController = LoopPageController(initialPage: 0);
   Timer? _timer;
   bool isCheckProfitClicked = false;
-
+  
   @override
   void initState() {
     super.initState();
@@ -74,7 +75,6 @@ class _HomeScreenState extends State<HomeScreen> {
 
   void serviceGetBannerList() {
     context.loaderOverlay.show();
-
     Map<String, String> param = {
       'banner_type': "2",
     };
@@ -105,6 +105,7 @@ class _HomeScreenState extends State<HomeScreen> {
       'device_token': token,
       'device_type': Platform.operatingSystem,
     };
+
 
     ApiManager.sharedInstance.postRequest(
       url: Api.deviceInfo,
@@ -380,9 +381,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     )
                   ],
                 ),
-                const SizedBox(
-                  height: 20,
-                ),
+                const SizedBox(height: 20),
                 SizedBox(
                   width: MediaQuery.of(context).size.width,
                   child: Column(
@@ -404,9 +403,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           fontWeight: FontWeight.w500,
                         ),
                       ),
-                      const SizedBox(
-                        height: 20,
-                      ),
+                      const SizedBox(height: 20),
                       const Text(
                         "Associate Amount",
                         style: TextStyle(

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 application
-INJECTED from /Users/anchalsingh/Downloads/Flutter/flutter_projects/globle_hour_marine/android/app/src/main/AndroidManifest.xml:7:4-47:19
+INJECTED from /Users/anchalsingh/Downloads/Flutter/flutter_projects/globle_hour_marine/android/app/src/main/AndroidManifest.xml:7:4-45:19
 INJECTED from /Users/anchalsingh/Downloads/Flutter/flutter_projects/globle_hour_marine/android/app/src/debug/AndroidManifest.xml
 MERGED from [:firebase_messaging] /Users/anchalsingh/Downloads/Flutter/flutter_projects/globle_hour_marine/build/firebase_messaging/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:5-46:19
 MERGED from [:firebase_messaging] /Users/anchalsingh/Downloads/Flutter/flutter_projects/globle_hour_marine/build/firebase_messaging/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:5-46:19
@@ -61,8 +61,8 @@ MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/an
 	android:name
 		INJECTED from /Users/anchalsingh/Downloads/Flutter/flutter_projects/globle_hour_marine/android/app/src/main/AndroidManifest.xml
 manifest
-ADDED from /Users/anchalsingh/Downloads/Flutter/flutter_projects/globle_hour_marine/android/app/src/main/AndroidManifest.xml:1:1-48:12
-MERGED from /Users/anchalsingh/Downloads/Flutter/flutter_projects/globle_hour_marine/android/app/src/main/AndroidManifest.xml:1:1-48:12
+ADDED from /Users/anchalsingh/Downloads/Flutter/flutter_projects/globle_hour_marine/android/app/src/main/AndroidManifest.xml:1:1-46:12
+MERGED from /Users/anchalsingh/Downloads/Flutter/flutter_projects/globle_hour_marine/android/app/src/main/AndroidManifest.xml:1:1-46:12
 INJECTED from /Users/anchalsingh/Downloads/Flutter/flutter_projects/globle_hour_marine/android/app/src/debug/AndroidManifest.xml:1:1-8:12
 INJECTED from /Users/anchalsingh/Downloads/Flutter/flutter_projects/globle_hour_marine/android/app/src/debug/AndroidManifest.xml:1:1-8:12
 INJECTED from /Users/anchalsingh/Downloads/Flutter/flutter_projects/globle_hour_marine/android/app/src/debug/AndroidManifest.xml:1:1-8:12
